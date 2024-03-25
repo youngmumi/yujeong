@@ -30,7 +30,6 @@
 
 ## 기존 사례 분석
 
-![](/markdown/lost112.png)
 
 ### 기존 서비스의 문제점
 
@@ -72,7 +71,6 @@
 
 </br></br>
 
-<p align="center"><img width="600" alt="image" src="/markdown/signup.png">
 </br>
 
 >회원가입 진행시 유효성 검사를 실시간으로 진행하며, 
@@ -96,7 +94,6 @@
 >메인페이지에서는 
 
 <p align="center">
-<img width="300" alt="image" src="/markdown/dollido_offline.png">
 </p>
 
 
@@ -160,8 +157,6 @@ def metadata(img_path=IMAGE_PATH):
 
   return "https://www.google.com/maps/place/"+str(Lat)+"+"+str(Lon), taglabel['DateTimeOriginal']
 ~~~
-<p align="center"><img width="600" alt="image" src="/markdown/GPS.png"></center></p> 
-
 >PIL의 ExifTags 라이브러리를 사용하였습니다. 내부 연산으로 경도와 위도를 뽑아낸 후 구글 맵스 URL과 결합하여 링크를 생성하여 응답하도록 하였습니다.
 
 </br></br>
